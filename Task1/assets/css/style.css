@@ -1,0 +1,426 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../image/background.jpg);
+    width: 100%;
+    height: auto;
+    min-height: 46.7rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.web-title a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 30px;
+    left: 150px;
+    font-size: 25px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 7px;
+    left: 1050px;
+    padding: 0 20px 0 20px;
+    font-size: 18px;
+}
+
+.header nav a:hover {
+    color: #fff;
+}
+
+.web-main h1 {
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+    font-size: 6.5rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    line-height: 6.5rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.web-main p {
+    position: relative;
+    bottom: 480px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 22px;
+}
+
+.main-link a {
+    text-decoration: none;
+    position: relative;
+    bottom: 410px;
+    left: 660px;
+    background-color: #64a19d;
+    color: #fff;
+    padding: 10px 40px 10px 40px;
+    padding: 1.25rem 2rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    letter-spacing: 0.15rem;
+    transition: 0.4s;
+}
+
+.main-link a:hover {
+    background-color: #50817e;
+}
+
+#built {
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    height: 650px;
+    position: relative;
+    bottom: 174px;
+}
+
+.built-title h2 {
+    position: relative;
+    top: 120px;
+    margin-left: 595px;
+    color: #fff;
+    font-size: 35px;
+}
+
+
+.built-title p {
+    position: relative;
+    top: 155px;
+    margin-left: 400px;
+    color: gray;
+    font-size: 19px;
+}
+
+.built-title a {
+    color: #64a19d;
+}
+
+
+.built-title a:hover {
+    color: #50817e;
+}
+
+
+.back-img img {
+    width: 1200px;
+    position: relative;
+    top: 205px;
+    margin-left: 140px;
+}
+
+.right-banner img {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    bottom: 30px;
+    margin-left: 130px;
+}
+
+.banner-title h3 {
+    margin-left: 850px;
+    text-align: center;
+    position: relative;
+    bottom: 330px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.banner-title p {
+    margin-left: 850px;
+    text-align: center;
+    position: relative;
+    bottom: 320px;
+    font-size: 20px;
+    color: gray;
+}
+
+.demo-img-1 img {
+    width: 600px;
+    height: 400px;
+    margin-left: 132px;
+    position: relative;
+    bottom: 100px;
+}
+
+.demo-img-2 img {
+    width: 600px;
+    height: 400px;
+    margin-left: 732px;
+    position: relative;
+    bottom: 104px;
+}
+
+.demo-img-3 {
+    width: 600px;
+    height: 400px;
+    background-color: #111;
+    position: relative;
+    bottom: 908px;
+    margin-left: 732px;
+}
+
+.demo-img-3 h4 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    font-size: 24px;
+}
+
+.demo-img-3 p {
+    color: gray;
+    text-align: center;
+    position: relative;
+    top: 195px;
+    font-size: 18px;
+}
+
+.demo-img-4 {
+    width: 600px;
+    height: 400px;
+    background-color: #111;
+    position: relative;
+    bottom: 908px;
+    margin-left: 132px;
+}
+
+.demo-img-4 h4 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    font-size: 24px;
+}
+
+.demo-img-4 p {
+    color: gray;
+    text-align: center;
+    position: relative;
+    top: 195px;
+    font-size: 18px;
+}
+
+#subscribe {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(../image/subscribe-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    bottom: 800px;
+}
+
+.subscribe-message-icon i {
+    color: #fff;
+    margin-left: 740px;
+    position: relative;
+    top: 180px;
+    font-size: 34px;
+}
+
+.subscribe-title h2 {
+    color: #fff;
+    margin-left: 520px;
+    position: relative;
+    top: 200px;
+    font-size: 33px;
+}
+
+.form .email {
+    position: relative;
+    top: 250px;
+    margin-left: 350px;
+    width: 580px;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    padding: 1.25rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form img {
+    position: relative;
+    top: 254px;
+    margin-left: -30px;
+    width: 16px;
+}
+
+.button-subscribe {
+    position: relative;
+    top: 250px;
+    left: 30px;
+    padding: 1.24rem 2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #64a19d;
+    color: #c6c0c0;
+    letter-spacing: 0.15rem;
+}
+
+#Contact {
+    background-color: #000;
+    position: relative;
+    height: 500px;
+    bottom: 800px;
+    opacity: 1;
+}
+
+.footer-up {
+    border: 100px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 200px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 120px;
+    border-radius: 5px;
+}
+
+.footer-contact-box-1 i {
+    color: #50817e;
+    position: relative;
+    bottom: 54px;
+    margin-left: 85px;
+}
+
+.footer-contact-box-1 h4 {
+    color: #111;
+    position: relative;
+    bottom: 38px;
+    text-align: center;
+    letter-spacing: 0.15rem;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.line-1 {
+    border: 3px solid #50817e;
+    width: 50px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 70px;
+}
+
+.footer-contact-box-1 span {
+    margin-left: -10px;
+    color: gray;
+}
+
+.footer-up .footer-contact-box-2 {
+    border: 100px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 200px;
+    margin-left: 360px;
+    position: relative;
+    bottom: 158px;
+    border-radius: 5px;
+}
+
+.footer-contact-box-2 i {
+    color: #50817e;
+    position: relative;
+    bottom: 54px;
+    margin-left: 85px;
+}
+
+.footer-contact-box-2 h4 {
+    color: #111;
+    position: relative;
+    bottom: 38px;
+    text-align: center;
+    letter-spacing: 0.15rem;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.line-2 {
+    border: 3px solid #50817e;
+    width: 50px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 70px;
+}
+
+.footer-contact-box-2 a {
+    margin-left: 30px;
+    color: #50817e;
+}
+
+.footer-up .footer-contact-box-3 {
+    border: 100px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 200px;
+    margin-left: 815px;
+    position: relative;
+    bottom: 358px;
+    border-radius: 5px;
+}
+
+.footer-contact-box-3 i {
+    color: #50817e;
+    position: relative;
+    bottom: 54px;
+    margin-left: 85px;
+}
+
+.footer-contact-box-3 h4 {
+    color: #111;
+    position: relative;
+    bottom: 38px;
+    text-align: center;
+    letter-spacing: 0.15rem;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.line-3 {
+    border: 3px solid #50817e;
+    width: 50px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 70px;
+}
+
+.footer-contact-box-3 span {
+    margin-left: 35px;
+    color: gray;
+}
+
+.footer-sosial-page a {
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    bottom: 300px;
+    left: 480px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 30px;
+    margin-right: 0.5rem;
+    margin-left: 0.4rem;
+}
+
+.footer-sosial-page a:hover {
+    color: #fff;
+}
+
+.footer-copyright p {
+    position: relative;
+    bottom: 220px;
+    color: #5e5e5e;
+    left: 460px;
+    font-size: 15px;
+}

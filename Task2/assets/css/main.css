@@ -1,0 +1,975 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #f7f7f7;
+    border: 2px solid #f2f2f2;
+}
+
+.header-logo a {
+    color: blue;
+    text-decoration: none;
+    position: relative;
+    top: 44px;
+    left: 100px;
+    font-size: 20px;
+}
+
+
+.header nav a {
+    text-decoration: none;
+    color: gray;
+    position: relative;
+    top: 22px;
+    left: 820px;
+    padding: 0 20px 0 20px;
+    font-size: 18px;
+    position: -webkit-sticky;
+}
+
+.header nav a:hover {
+    color: #111;
+}
+
+
+.nav-link a {
+    background-color: blue;
+    margin-left: 1300px;
+    position: relative;
+    top: 3px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 30px 12px 20px;
+    color: #fff;
+    font-weight: bolder
+}
+
+.nav-link a:hover {
+    background-color: rgb(35, 35, 221);
+}
+
+.nav-link i {
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 10px;
+    font-size: 12px;
+}
+
+.main-title h1 {
+    position: relative;
+    top: 250px;
+    margin-left: 130px;
+    font-size: 2.5rem;
+    letter-spacing: 0.15rem;
+    font-weight: 500;
+    color: #363d47;
+}
+
+.main-title p {
+    position: relative;
+    top: 260px;
+    margin-left: 130px;
+    font-size: 18px;
+    letter-spacing: 0.15rem;
+    font-weight: 500;
+    color: gray;
+}
+
+.main-link-1 a {
+    background-color: blue;
+    position: relative;
+    top: 310px;
+    left: 130px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 18px 40px 18px 40px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.main-link-1 i {
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 10px;
+    font-size: 12px;
+}
+
+.main-link-1 a:hover {
+    background-color: rgb(35, 35, 221);
+}
+
+.main-link-2 a {
+    background-color: rgb(232, 239, 240);
+    position: relative;
+    top: 292px;
+    left: 340px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 18px 40px 18px 40px;
+    color: rgb(80, 98, 234);
+    font-weight: bolder;
+}
+
+.main-link-2 a:hover {
+    background-color: rgb(230, 232, 232);
+}
+
+.main-banner img {
+    width: 600px;
+    margin-left: 830px;
+    position: relative;
+    bottom: 30px;
+}
+
+#Landing {
+    background-color: #f2f2f2;
+    height: 1600px;
+    border-top: 60px solid #f2f2f2;
+}
+
+.Landing-title a {
+    text-decoration: none;
+    color: rgb(80, 98, 234);
+    background-color: rgb(158, 211, 218);
+    border-radius: 15px;
+    margin-left: 700px;
+    padding: 0 10px 0 10px;
+}
+
+.Landing-title h3 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: #363d47;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.Landing-title p {
+    position: relative;
+    top: 40px;
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+
+.box-1 h4 {
+    position: relative;
+    top: 120px;
+    margin-left: 210px;
+    color: #363d47;
+    font-weight: 500;
+}
+
+.box-1 img {
+    width: 400px;
+    margin-left: 90px;
+    position: relative;
+    top: 140px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #ff0808;
+    --1: 0;
+}
+
+.box-1 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.box-2 h4 {
+    position: relative;
+    bottom: 168px;
+    text-align: center;
+    margin-left: -80px;
+    color: #363d47;
+    font-weight: 500;
+}
+
+.box-2 img {
+    width: 400px;
+    margin-left: 530px;
+    position: relative;
+    top: -150px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #77ff00;
+    --1: 0;
+}
+
+.box-2 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+
+.box-3 h4 {
+    position: relative;
+    bottom: 457px;
+    text-align: center;
+    margin-left: 800px;
+    color: #363d47;
+    font-weight: 500;
+}
+
+.box-3 img {
+    width: 400px;
+    margin-left: 970px;
+    position: relative;
+    top: -440px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #00ffff;
+    --1: 0;
+}
+
+.box-3 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.box-4 h4 {
+    position: relative;
+    bottom: 405px;
+    text-align: center;
+    margin-left: -970px;
+    color: #363d47;
+    font-weight: 500;
+}
+
+.box-4 img {
+    width: 400px;
+    margin-left: 90px;
+    position: relative;
+    top: -390px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #c3ff00;
+    --1: 0;
+}
+
+.box-4 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.box-5 h4 {
+    position: relative;
+    bottom: 695px;
+    text-align: center;
+    margin-left: -80px;
+    color: #363d47;
+    font-weight: 500;
+}
+
+.box-5 img {
+    width: 400px;
+    margin-left: 530px;
+    position: relative;
+    top: -680px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #e600ff;
+    --1: 0;
+}
+
+.box-5 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+
+.box-6 h4 {
+    position: relative;
+    bottom: 985px;
+    text-align: center;
+    margin-left: 800px;
+    color: #363d47;
+    font-weight: 500;
+}
+
+.box-6 img {
+    width: 400px;
+    margin-left: 970px;
+    position: relative;
+    top: -970px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #ff8400;
+    --1: 0;
+}
+
+.box-6 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.box-7 h4 {
+    position: relative;
+    bottom: 935px;
+    text-align: center;
+    margin-left: -970px;
+    color: #5d5532;
+    font-weight: 500;
+}
+
+.box-7 img {
+    width: 400px;
+    margin-left: 90px;
+    position: relative;
+    top: -920px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #31b3e7;
+    --1: 0;
+}
+
+.box-7 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.box-8 h4 {
+    position: relative;
+    bottom: 1222px;
+    text-align: center;
+    margin-left: -80px;
+    color: #363d47;
+    font-weight: 500;
+}
+
+.box-8 img {
+    width: 400px;
+    margin-left: 530px;
+    position: relative;
+    bottom: 1210px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #0040ff;
+    --1: 0;
+}
+
+.box-8 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.box-9 h4 {
+    position: relative;
+    bottom: 1512px;
+    text-align: center;
+    margin-left: 800px;
+    color: #363d47;
+    font-weight: 500;
+}
+
+.box-9 img {
+    width: 400px;
+    margin-left: 970px;
+    position: relative;
+    bottom: 1500px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #ff0088;
+    --1: 0;
+}
+
+.box-9 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.box-10 h4 {
+    position: relative;
+    bottom: 1460px;
+    text-align: center;
+    margin-left: -970px;
+    color: #5d5532;
+    font-weight: 500;
+}
+
+.box-10 img {
+    width: 400px;
+    margin-left: 90px;
+    position: relative;
+    bottom: 1440px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: gray;
+    --1: 0;
+}
+
+.box-10 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.box-11 h4 {
+    position: relative;
+    bottom: 1750px;
+    text-align: center;
+    margin-left: -80px;
+    color: #363d47;
+    font-weight: 500;
+}
+
+.box-11 img {
+    width: 400px;
+    margin-left: 530px;
+    position: relative;
+    bottom: 1730px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #00ffff;
+    --1: 0;
+}
+
+.box-11 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.box-12 h4 {
+    position: relative;
+    bottom: 2040px;
+    text-align: center;
+    margin-left: 800px;
+    color: #363d47;
+    font-weight: 500;
+}
+
+.box-12 img {
+    width: 400px;
+    margin-left: 970px;
+    position: relative;
+    bottom: 2020px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 2s;
+    --clr: #00ffcc;
+    --1: 0;
+}
+
+.box-12 img:hover {
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+
+.Pages-title span {
+    margin-left: 700px;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    color: rgb(80, 98, 234);
+    background-color: rgb(232, 239, 240);
+    width: 63px;
+    border-radius: 15px;
+    padding: 0 10px 0 10px;
+}
+
+.Pages-title h3 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-right: 35px;
+    color: #363d47;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.Pages-title p {
+    position: relative;
+    top: 60px;
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Pages-box-all {
+    border: 1px solid gray;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 150px;
+    margin-left: 100px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+
+.Pages-box-all h3 {
+    position: relative;
+    bottom: 40px;
+    color: #111;
+    font-weight: 500;
+}
+
+.Pages-box-1 a {
+    text-decoration: none;
+    margin-left: 14px;
+    position: relative;
+    top: 12px;
+    color: #111;
+
+}
+
+.Pages-box-1 i {
+    margin-left: 280px;
+    color: gray;
+    font-size: 10px;
+}
+
+
+.Pages-box-all-2 {
+    border: 1px solid gray;
+    width: 400px;
+    height: 225px;
+    position: relative;
+    top: -269px;
+    margin-left: 450px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+
+.Pages-box-all-2 h3 {
+    position: relative;
+    bottom: 40px;
+    color: #111;
+    font-weight: 500;
+}
+
+.Pages-box-2 a {
+    text-decoration: none;
+    margin-left: 14px;
+    position: relative;
+    top: 5px;
+    color: #111;
+
+}
+
+.Pages-box-2 i {
+    margin-left: 280px;
+    color: gray;
+    font-size: 10px;
+}
+
+
+.Pages-box-all-3 {
+    border: 1px solid gray;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: -230px;
+    margin-left: 450px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+
+.Pages-box-all-3 h3 {
+    position: relative;
+    bottom: 40px;
+    color: #111;
+    font-weight: 500;
+}
+
+.Pages-box-3 a {
+    text-decoration: none;
+    margin-left: 14px;
+    position: relative;
+    top: 12px;
+    color: #111;
+}
+
+.Pages-box-3 i {
+    margin-left: 280px;
+    color: gray;
+    font-size: 10px;
+}
+
+.Pages-box-all-4 {
+    border: 1px solid gray;
+    width: 400px;
+    height: 140px;
+    position: relative;
+    top: 120px;
+    margin-left: -902px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+
+.Pages-box-all-4 h3 {
+    position: relative;
+    bottom: 40px;
+    color: #111;
+    font-weight: 500;
+}
+
+.Pages-box-4 a {
+    text-decoration: none;
+    margin-left: 14px;
+    position: relative;
+    top: 12px;
+    color: #111;
+}
+
+.Pages-box-4 i {
+    margin-left: 280px;
+    color: gray;
+    font-size: 10px;
+}
+
+.Pages-box-all-5 {
+    border: 1px solid gray;
+    width: 400px;
+    height: 180px;
+    position: relative;
+    top: -180px;
+    margin-left: 451px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+
+.Pages-box-all-5 h3 {
+    position: relative;
+    bottom: 40px;
+    color: #111;
+    font-weight: 500;
+}
+
+.Pages-box-5 a {
+    text-decoration: none;
+    margin-left: 14px;
+    position: relative;
+    top: 12px;
+    color: #111;
+
+}
+
+.Pages-box-5 i {
+    margin-left: 280px;
+    color: gray;
+    font-size: 10px;
+}
+
+
+#Customizable {
+    background-color: #f2f2f2;
+    height: 900px;
+    position: relative;
+    top: 600px;
+    border-top: 20px solid #f2f2f2;
+}
+
+.header-title span {
+    color: rgb(80, 98, 234);
+    background-color: rgb(158, 211, 218);
+    border-radius: 15px;
+    margin-left: 700px;
+    padding: 0 10px 0 10px;
+}
+
+.header-title h3 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: #363d47;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.header-title p {
+    position: relative;
+    top: 40px;
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.Documentation-title h3 {
+    position: relative;
+    top: 700px;
+    text-align: center;
+    color: #363d47;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.Documentation-title p {
+    position: relative;
+    top: 710px;
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+
+.divide-1 span {
+    position: relative;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    ;
+    top: 780px;
+    margin-left: 200px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #c5ccd6;
+}
+
+.divide-1 h3 {
+    position: relative;
+    margin-left: -950px;
+    top: 790px;
+    text-align: center;
+    color: #363d47;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+.divide-1 p {
+    position: relative;
+    margin-left: -950px;
+    top: 800px;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+
+.divide-2 span {
+    position: relative;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    ;
+    top: 585px;
+    margin-left: 660px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #c5ccd6;
+}
+
+.divide-2 h3 {
+    position: relative;
+    margin-left: -20px;
+    top: 595px;
+    text-align: center;
+    color: #363d47;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+.divide-2 p {
+    position: relative;
+    margin-left: -10px;
+    top: 605px;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+
+
+.divide-3 span {
+    position: relative;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    ;
+    top: 391px;
+    margin-left: 1150px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #c5ccd6;
+}
+
+.divide-3 h3 {
+    position: relative;
+    margin-left: 950px;
+    top: 400px;
+    text-align: center;
+    color: #363d47;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.divide-3 p {
+    position: relative;
+    margin-left: 950px;
+    top: 409px;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+
+.documentation-link a {
+    background-color: blue;
+    position: relative;
+    top: 500px;
+    margin-left: 635px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.documentation-link a:hover {
+    background-color: rgb(35, 35, 221);
+}
+
+#footer-background {
+    background-color: #f2f2f2;
+    height: 798px;
+    position: relative;
+    top: 450px;
+    border-top: 20px solid #f2f2f2;
+}
+
+.footer-header h4 {
+    color: #363d47;
+    font-weight: 500;
+    position: relative;
+    top: 80px;
+    margin-left: 220px;
+    font-size: 24px;
+}
+
+.footer-header p {
+    color: #363d47;
+    font-weight: 500;
+    position: relative;
+    top: 85px;
+    margin-left: 220px;
+    font-size: 15px;
+}
+
+.footer-category-1 h4 {
+    margin-left: 480px;
+    position: relative;
+    top: 17px;
+    color: gray;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.footer-category-1 a {
+    margin-left: 480px;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    ;
+}
+
+.footer-category-2 h4 {
+    margin-left: 740px;
+    position: relative;
+    top: -173px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.footer-category-2 a {
+    margin-left: 740px;
+    position: relative;
+    top: -150px;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    ;
+}
+
+.footer-category-3 h4 {
+    margin-left: 1020px;
+    position: relative;
+    top: -324px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.footer-category-3 a {
+    margin-left: 1020px;
+    position: relative;
+    top: -299px;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    ;
+}
+
+.footer-category-4 h4 {
+    margin-left: 1280px;
+    position: relative;
+    top: -588px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.footer-category-4 a {
+    margin-left: 1280px;
+    position: relative;
+    top: -564px;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    ;
+}
+
+.footer-line {
+    position: relative;
+    top: -150px;
+    margin-left: 80px;
+    width: 1350px;
+    opacity: 0.25;
+}
+
+.footer-copyright span {
+    position: relative;
+    top: -50px;
+    margin-left: 100px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
